@@ -1,0 +1,37 @@
+/* Carousel Styles
+ * Adjust the variables to customize the carousel and carousel item appearance
+ */
+
+$carousel-height: 500px; 
+$carousel-width: 100%;
+$color-border: #d8d8d8;
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid $color-border;
+  height: $carousel-height;
+  width: $carousel-width;
+  overflow: hidden;
+  clear:right;
+  white-space: nowrap;
+
+  div {
+    border: 0;
+    height: $carousel-height;
+    width: $carousel-width;
+    background: #e9e9e9;
+    display: inline-block; 
+  }
+
+  img {
+    height: 100%;
+  }
+}
+
